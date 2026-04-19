@@ -1,0 +1,26 @@
+2026-04-19 10:26:15,941 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.95.30.202:5000
+2026-04-19 10:26:15,946 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-19 10:26:15,954 [INFO]  * Restarting with stat
+2026-04-19 10:26:17,757 [WARNING]  * Debugger is active!
+2026-04-19 10:26:17,766 [INFO]  * Debugger PIN: 782-372-850
+2026-04-19 10:29:25,350 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:25] "POST /api/auth/login HTTP/1.1" 200 -
+2026-04-19 10:29:25,871 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:25] "GET /api/admin/users HTTP/1.1" 200 -
+2026-04-19 10:29:25,871 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:25] "GET /api/admin/stats HTTP/1.1" 200 -
+2026-04-19 10:29:26,096 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:26] "GET /api/admin/users HTTP/1.1" 200 -
+2026-04-19 10:29:26,190 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:26] "GET /api/admin/stats HTTP/1.1" 200 -
+2026-04-19 10:29:41,109 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:41] "GET /api/user/transactions?limit=15 HTTP/1.1" 200 -
+2026-04-19 10:29:41,430 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:41] "GET /api/user/transactions?limit=15 HTTP/1.1" 200 -
+2026-04-19 10:29:49,710 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:49] "GET /api/user/balance HTTP/1.1" 200 -
+2026-04-19 10:29:50,045 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/loans HTTP/1.1" 200 -
+2026-04-19 10:29:50,046 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/transactions/summary HTTP/1.1" 200 -
+2026-04-19 10:29:50,047 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/cards HTTP/1.1" 200 -
+2026-04-19 10:29:50,049 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/balance HTTP/1.1" 200 -
+2026-04-19 10:29:50,049 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/rewards HTTP/1.1" 200 -
+2026-04-19 10:29:50,359 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/loans HTTP/1.1" 200 -
+2026-04-19 10:29:50,381 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/cards HTTP/1.1" 200 -
+2026-04-19 10:29:50,382 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/transactions/summary HTTP/1.1" 200 -
+2026-04-19 10:29:50,383 [INFO] 127.0.0.1 - - [19/Apr/2026 10:29:50] "GET /api/user/rewards HTTP/1.1" 200 -
+2026-04-19 10:30:07,742 [INFO] 127.0.0.1 - - [19/Apr/2026 10:30:07] "POST /api/chat/message HTTP/1.1" 200 -

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: smartbank-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: SECRET_KEY
+        value: smartbank-secret-2024
+      - key: JWT_SECRET_KEY
+        value: smartbank-jwt-2024
